@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="signin.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">  <link rel="stylesheet" href="/sign-up/login/signin.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In</title>
+</head>
+<body>
+    <main>
+        <div id="first">
+            <img src="/object-2.png" alt="">
+            
+        </div>
+
+        <div id="buttons">
+            <h2>LOGIN</h2>
+            <button id="phone">
+                <img src="/icon _mobile.png" alt="">
+          
+                Enter Your Mobile Number
+                  </button>
+            <br>
+            <button id="fb">
+                <img src="/icon _fb.png" alt="">
+                Continue with Facebook
+            </button>
+            <br>
+            <button id="google">
+                <img src="/icon _google.png" alt="">
+                Continue with Google
+            </button>
+            <br>
+            <button id="email">
+                <img src="/icon _mail.png" alt="">
+                Continue with Email
+            </button>
+        </div>
+        <div class="policy" style="margin-top: 30px;">
+            <p>By Continuing, You Agree To Our</p>
+            <span style="display: flex; background-color: transparent; text-align: center; align-items: center; justify-content: center; font-weight: 400;">
+                <p style="text-decoration: underline;">Terms of Service</p>
+                <p> & </p>
+                <p style="text-decoration: underline;">Privacy Policy</p>
+            </span>
+        </div>
+        
+       
+    </main>
+</body>
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-auth.js"></script>
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyB8AT1XaUoaeFEqKOxx7SvfwgME-4mfASs",
+    authDomain: "go4garage-b5eee.firebaseapp.com",
+    projectId: "go4garage-b5eee",
+    storageBucket: "go4garage-b5eee.appspot.com",
+    messagingSenderId: "78003983802",
+    appId: "1:78003983802:web:aa576423080474b832b983"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+</script>
+<script src="/sign-up/login/signin.js"></script>
+</html>

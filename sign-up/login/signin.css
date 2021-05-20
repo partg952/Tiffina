@@ -1,0 +1,117 @@
+body{
+    margin: 0;
+    overflow-x:hidden;
+    font-family: 'Montserrat', sans-serif;
+}
+
+main {
+  padding-bottom: 60px;
+    margin: 0;
+    position: relative;
+    background-image: url(/Bg.png);
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #first {
+
+
+    background-repeat: no-repeat;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background: url(/Bg-2.2.png) top center;
+    background-color: transparent;
+    height: 300px;
+    margin-left: auto;
+    background-size: 110% 100%;
+    margin-right: auto;
+  
+  
+  
+  }
+  
+
+  #first img{
+      margin-top: 30px;
+      margin-bottom: 20px;
+  }
+  .text {
+    text-align: center;
+    background-color: transparent;
+  }
+  
+  .text * {
+    bottom: 0;
+    margin: 10px;
+  }
+  
+  .text h2 {
+    font-weight: bolder;
+  }
+
+  @media only screen and (max-width: 400px) {
+      .text{
+          text-align: left;
+      }
+
+      .text *{
+          margin:20px;
+      }
+  }
+
+
+  #buttons{
+    margin-top: 100px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 60px;
+  }
+
+  #buttons button{
+    background-color: white;
+    border-radius: 6px;
+    border: 1px solid rgb(240, 191, 191);
+    font-family: 'Montserrat', sans-serif;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    text-align: left;
+    align-items: center;
+    
+    
+  }
+
+  #buttons h2{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    font-weight: bolder;
+    background-color: transparent;
+    width: 300px;
+  }
+
+  #buttons button img{
+    margin-right: 20px;
+  }
+
+  #buttons button img{
+    height: 30px;
+  }
+
+  .policy{
+    
+    background-color: transparent ;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: 0;  
+  }
+
+  .policy *{
+    margin: 2px;  
+  }

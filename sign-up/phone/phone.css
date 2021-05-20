@@ -1,0 +1,104 @@
+body{
+    margin: 0;
+    overflow-x:hidden;
+    font-family: 'Montserrat', sans-serif;
+}
+
+main {
+  padding-bottom: 60px;
+    margin: 0;
+    position: relative;
+    background-image: url(/Bg.png);
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+  #first {
+    background-color: aqua;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background: url(/Bg-2.3.png) top center;
+    background-color: transparent;
+    height: 300px;
+    margin-left: cover;
+    background-size: 100% 80%;
+    background-repeat: no-repeat;
+    margin-right: auto;
+  
+  
+  
+  }
+  
+
+  #first img{
+      margin-top: 30px;
+      margin-bottom: 20px;
+  }
+
+  #input{
+      width:300px;
+      background-color: transparent;
+      margin-left: auto;
+      margin-right: auto;
+      text-align: left;
+  }
+
+  #input input{
+   border-radius: 6px;
+   border: 1px solid rgb(246, 215, 215);
+   padding: 5px;
+   width: 300px;
+   margin-top: 10px;
+}
+
+#input label{
+    font-size: 12px;
+ }
+
+ #proceed {
+    background-color: #f7993d;
+    border: 0;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 6px;
+    width: 300px;
+    padding: 4px;
+    box-shadow: -3px 5px rgba(0, 0, 0, 0.246);
+    transition: all 0.3s ease;
+  }
+
+  #proceed h3 {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    text-shadow: -1px 2px black;
+    font-size: 25px;
+    color: white;
+    /* -webkit-text-stroke:0.5px black; */
+  
+  }
+  #otp{
+      width: 300px;
+      padding: 5px;
+      margin-bottom: 10px;
+      border-radius: 6px;
+      border: 1px solid rgb(245, 220, 220);
+  }
+
+  .otp{
+      text-align: left;
+      margin-left: auto;
+      margin-right: auto;
+      width: 300px;
+      background-color: transparent;
+  }
+
+  #recaptcha-container{
+      width: 300px;
+      align-items: center;
+      justify-content: center;
+      margin-right: auto;
+      margin-left: auto;
+      background-color: transparent;
+  }

@@ -1,0 +1,35 @@
+body {
+    
+    place-items: center;
+    align-items: center;
+    justify-content: center;
+    background-image: url('Bg.png');
+}
+
+
+div {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+img {
+    width: 300px;
+    height: 300px;
+    animation-duration: 1.5s;
+    animation-name: size;
+    transition: all 0.3s ease;
+    animation-delay: 2s;
+    animation-iteration-count: 10;
+}
+
+@keyframes size{
+    25%{transform: rotate3d(0,1,0,180deg);}   
+
+}

@@ -1,0 +1,142 @@
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+main {
+  
+  margin: 0;
+  background-image: url(/Bg.png);
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 100px;
+
+}
+
+#first {
+
+
+  background-repeat: no-repeat;
+  margin: 0;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  background: url(/Bg-2.png) top center;
+  background-color: transparent;
+  height: 400px;
+  margin-left: auto;
+  background-size: 1900px 120%;
+  margin-right: auto;
+
+
+
+}
+
+
+
+#get-started {
+  background-color: #f7993d;
+  border: 0;
+  border-radius: 6px;
+  width: 300px;
+  box-shadow: -3px 5px rgba(0, 0, 0, 0.246);
+  transition: all 0.3s ease;
+}
+
+#get-started p {
+  margin: 0;
+
+  font-size: 8px;
+}
+
+#get-started h3 {
+  margin: 0;
+  font-weight: bolder;
+  text-shadow: -1px 1px rgba(0, 0, 0, 0.246);
+  font-size: 25px;
+  color: white;
+  /* -webkit-text-stroke:0.5px black; */
+
+}
+
+#get-started:hover {
+  box-shadow: -1px 3px rgba(0, 0, 0, 0.246);
+  /* -webkit-text-stroke:0.5px black; */
+}
+
+#first img {
+  margin-top: 90px;
+  width: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  
+
+}
+
+.text {
+  text-align: center;
+  background-color: transparent;
+}
+
+.text * {
+  bottom: 0;
+  margin: 10px;
+}
+
+.text h2 {
+  font-weight: bolder;
+}
+
+.normal {
+  font-size: 15px;
+  background-color: white;
+  color: black;
+  border: 1px solid #f5e1e1;
+  border-radius: 6px;
+  width: 300px;
+  padding: 10px;
+}
+
+#buttons button {
+  margin: 5px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+#slready strong {
+  font-weight: bolder;
+}
+
+@media only screen and (max-width: 400px) {
+  #first {
+
+
+    background: url(/Bg-2.1.png) top center;
+
+    background-size: 550px 460px;
+    background-repeat: no-repeat;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+    
+    background-color: transparent;
+    height: 500px;
+    margin-left: auto;
+    
+    margin-right: auto;
+
+    width: 100%;
+
+  }
+
+  .text {
+    text-align: left;
+    background-color: transparent;
+  }
+}
+
+#buttons{
+  margin-top: 0px;
+  margin-left: auto;
+  margin-right: auto;
+}
